@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#9bd7ef"/><stop offset="1" stop-color="#fff2cf"/></linearGradient>
+    <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#a8d9ad"/><stop offset="1" stop-color="#5caa85"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <circle cx="1510" cy="250" r="115" fill="#fff6cf" opacity=".9"/>
+  <ellipse cx="1510" cy="250" rx="180" ry="150" fill="#fff6cf" opacity=".35" filter="url(#blur)"/>
+  <g fill="#fff" opacity=".62">
+    <ellipse cx="410" cy="270" rx="140" ry="35"/><ellipse cx="470" cy="250" rx="75" ry="49"/><ellipse cx="530" cy="275" rx="100" ry="28"/>
+    <ellipse cx="1080" cy="390" rx="125" ry="30"/><ellipse cx="1130" cy="370" rx="70" ry="42"/><ellipse cx="1190" cy="392" rx="90" ry="25"/>
+  </g>
+  <path d="M0 720 Q260 570 520 700 T1040 690 T1560 650 T1920 700 V1080 H0Z" fill="#b5d7b2"/>
+  <path d="M0 820 Q300 650 610 820 T1220 790 T1920 750 V1080 H0Z" fill="url(#hill)"/>
+  <path d="M0 930 Q360 790 720 910 T1450 900 T1920 850 V1080 H0Z" fill="#428b70" opacity=".8"/>
+</svg>

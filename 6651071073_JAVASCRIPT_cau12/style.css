@@ -1,0 +1,48 @@
+body {
+  margin: 18px;
+  color: #000;
+  font-family: "Times New Roman", serif;
+  font-size: 24px;
+}
+
+h2 {
+  margin: 0 0 30px;
+  font-size: 24px;
+}
+
+.checkbox-card {
+  margin-bottom: 27px;
+}
+
+.question {
+  margin-bottom: 2px;
+}
+
+.choice {
+  display: block;
+  line-height: 1.2;
+}
+
+.choice input {
+  width: 19px;
+  height: 19px;
+  margin: 0 3px 0 6px;
+  vertical-align: -2px;
+}
+
+.details[hidden] {
+  display: none;
+}
+
+.details input {
+  display: block;
+  width: 255px;
+  height: 32px;
+  box-sizing: border-box;
+  font: 20px Arial, sans-serif;
+}
+
+.details a {
+  display: block;
+  line-height: 1.25;
+}
